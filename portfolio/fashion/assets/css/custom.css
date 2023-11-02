@@ -6,3 +6,8 @@ body { font-family: 'Playfair Display', serif; }
 
 .section-selector-4.theme-dark { background-color: var(--green-800) }
 .section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--white-000) }
+
+.theme-dark.section-selector-1 a:link,
+.theme-dark.section-selector-1 a:visited {
+    color: var(--green-200)
+}
