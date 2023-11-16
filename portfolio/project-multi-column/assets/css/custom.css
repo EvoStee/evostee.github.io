@@ -42,8 +42,6 @@
     
 .section-selector-5 .flex-cols-4 > .col-4 > h3 { font-size: var(--font-size-xl); }
 
-.section-selector-6.theme-light .cols-background .col-3 { background-color: var(--green-200) }
-
 .section-selector-6.theme-light .cols-background .col-3:nth-child(1) {
     background-color: var(--green-200);
 }
