@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,31 +31,44 @@
 
 <body>
 
-    <!-- menu and 'hero block' header -->
-    <nav class="theme-dark"><div class="container-menu">
-        <a class='brand' href='/ibat/projects-ui/project-home-checklist/resources/website-dark/'>
-            <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo"></a>
-        
-        <div class="container-menu-links">
-        
-        <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
-            <ul class="links-wrapper">
-                <li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/'>Home</a></li>
-                <li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/portfolio/'>Portfolio</a></li>
-                <li><a href="../store/index.html">Store</a></li>
-                <li><a class='btn btn-solid btn-soft' href='/ibat/projects-ui/project-home-checklist/resources/website-dark/contact/' id='btn-cta'><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
-            </ul>
-            </div>
-        </div>
-    </nav>
+<!--navbar menu begins here-->
+<nav class="theme-light">
+	<div class="container-menu menu-desktop">
+		<a href="../index.html" class="brand">
+			<img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+		</a>
+
+		<div class="container-menu-links">
+
+			<!-- hamburger icon -->
+			<div class="nav-toggle" id="nav-toggle-btn">
+				<div class="bar-1"></div>
+				<div class="bar-2"></div>
+				<div class="bar-3"></div>
+			</div>
+
+			<!-- List of links -->
+			<ul class="links-wrapper links-bold" aria-label="menu" aria-expanded="false">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../portfolio/index.html">Portfolio</a></li>
+				<li><a href="./index.html">Store</a></li>
+				<li><a class="btn btn-solid btn-soft" id="btn-cta" href="../contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+			</ul>
+
+		</div> <!-- closes container-menu-links -->
+	</div> <!-- closes container-menu -->
+</nav>
+<!-- navbar menu ends here -->
     
+	<!-- header starts here -->
     <header class="theme-dark text-center-mobile">
         <div class="container-text w-1140px">
             <h1>Portfolio</h1>
             <h2>Below you can see a selection of my web design and front-end development projects.</h2>
         </div>
         
-    </header><!-- header ends here -->
+    </header>
+	<!-- header ends here -->
         
         
     <!-- main content with sections -->
@@ -126,27 +142,24 @@
 
     <!-- footer -->
  
-	<footer class="theme-dark text-center-desktop text-center-mobile">
-
-		<h2>Mary Smith</h2>
-
-		<h3>Front-end designer and developer</h3>
-
-		<ul class="footer-links">
-			<li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/'>Home</a></li>
-			<li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/portfolio/'>Portfolio</a></li>
-			<li><a href="../store/index.html">Store</a></li>
-            <li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/contact/'>Contact</a></li>
-		</ul>
-
-		<ul class="footer-icons">
-			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-			<li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
-		</ul>
-
-		<p class="privacy"><a href="../privacy.html">Privacy &amp; Legal</a></p>
-
+	<!-- footer starts here -->
+    <footer class="theme-dark footer-0 text-center-desktop text-center-mobile">
+        <h2>EvoStee</h2>
+        <h3>Web Design</h3><ul class="footer-links footer-links-uppercase">		
+    	<li><a href="#">Home</a></li>
+		<li><a href="../index.html#sample-projects">Samples</a></li>
+		<li><a href="../portfolio/index.html">Portfolio</a></li>
+		<li><a href="../store/index.html">Store</a></li>
+		<li><a href="../privacy.html">Legal &amp; Privacy</a></li>
+		</ul><ul class="footer-icons">
+		<li><a href="https://github.com/EvoStee/" target="_blank" rel="no-referrer"><i class="fa-brands fa-github"></i></a></li>
+		<li><a href="./contact/index.html"><i class="fa-solid fa-envelope"></i></a></li>
+		</ul>       
+		<div class="copyright">	
+			<p>Copyright © EvoStee. All rights reserved.</p>
+		</div>
 	</footer>
+    <!-- footer ends here -->
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
