@@ -9,5 +9,9 @@
 header h1 {
     font-family: 'Prata', serif;
     font-weight: 400;
-    line-height: 1.2
+    line-height: 1.2;
+}
+
+body > header > div.col-2.col-text {
+    background-color: var(--trend-100);
 }
